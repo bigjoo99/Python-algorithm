@@ -1,7 +1,4 @@
-import sys
+arr = [1,2,3,4,5]
 
-input = sys.stdin.readline
-
-arr = input().split()
-
-print(arr)
+print(arr.pop(0))
+print(arr.pop())
